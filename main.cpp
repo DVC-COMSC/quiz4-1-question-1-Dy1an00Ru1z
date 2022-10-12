@@ -1,3 +1,8 @@
+
+Giovanni Gomez
+4:11 PM (0 minutes ago)
+to me
+
 #include <iostream>
 using namespace std;
 int main() {
@@ -5,6 +10,7 @@ int main() {
 
   int radius;
   int pi;
+  pi = 3.14159;
   int length;
   int width;
   int base;
@@ -19,32 +25,18 @@ int main() {
 
   switch (selection) {
   case 1:
-    cout << "Enter value of pi and radius\n";
-    cin >> pi >> radius;
+    cout << "Enter value of radius\n";
+    cin >> radius;
+    cout << pi * radius * radius;
     break;
   case 2:
     cout << "Enter value of Length and width\n";
     cin >> length >> width;
+    cout << length * width;
     break;
   case 3:
     cout << "Enter value of base and height\n";
     cin >> base >> height;
-    break;
-  case 4:
-    cout << "Well okay then, good bye!\n";
-    break;
-  default:
-    cout << "Not good with numbers\n";
-  }
-
-  switch (selection) {
-  case 1:
-    cout << pi * radius * radius;
-    break;
-  case 2:
-    cout << length * width;
-    break;
-  case 3:
     cout << 0.5 * base * height;
     break;
   case 4:
@@ -53,5 +45,4 @@ int main() {
   default:
     cout << "Not good with numbers\n";
   }
-  return 0;
 }
