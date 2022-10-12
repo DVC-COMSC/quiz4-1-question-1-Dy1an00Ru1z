@@ -1,7 +1,4 @@
 
-Giovanni Gomez
-4:11 PM (0 minutes ago)
-to me
 
 #include <iostream>
 using namespace std;
